@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    android:padding="5dp" >
+<TextView
+        android:id="@+id/practice_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:padding="5dp"
+        android:text="Happy B&apos;day man"
+        android:textColor="#fff9fb"
+        android:textSize="20dp"
+        android:typeface="serif" />
+
+  <TextView
+      android:id="@+id/practice_datetime"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:text="3/12/1992 14:28"
+      android:textColor="#fff9fb" />
+
+</LinearLayout>

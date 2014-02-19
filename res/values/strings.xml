@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">myNote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_show_list">myNote</string>
+    <string name="country">Choose yr country name</string>
+    <string-array name="country_array">
+        <item>what is your pet name ?</item>
+        <item >what is your nick name ?</item>
+        <item >What is your birth date ?</item>
+        <item>How old r u ?</item>
+        <item >which country do u belong to ?</item>
+    </string-array>
+    <string name="hint">Enter your note</string>
+    <string name="show_list_empty">List is empty , add items </string>
+</resources>

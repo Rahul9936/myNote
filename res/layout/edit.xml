@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notes" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="46dp"
+            android:background="#00000000"
+            android:hint="@string/hint"
+            android:padding="15dp"
+            android:paddingBottom="12.0sp"
+            android:paddingTop="12.0sp"
+            android:textColor="#5e5e60"
+            android:textSize="25.0sp" >
+        </EditText>
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:id="@+id/imgid"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

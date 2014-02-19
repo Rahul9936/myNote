@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="Add"
+        android:icon="@drawable/add"
+         />
+   
+   <item
+       android:id="@+id/menu_exit"
+       android:title="Exit" 
+       android:icon="@drawable/close"
+       />
+   <item 
+       android:title="Preference"
+       android:id="@+id/pref"
+       android:icon="@drawable/lock"
+       />
+  <item android:id="@+id/backup"
+      android:title="backUp"
+      />
+</menu>

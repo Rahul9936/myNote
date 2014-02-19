@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/setting_checkBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:checked="false"
+        android:text="check to enable password in application" />
+
+    <EditText
+        android:id="@+id/setting_edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="enter password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/setting_edit2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="re enter password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Secret Question" />
+
+    <Spinner
+        android:id="@+id/setting_sniper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/country_array"
+        android:prompt="@string/country" />
+
+    <EditText
+        android:id="@+id/setting_edit3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/setting_btn_save"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/setting_btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>
